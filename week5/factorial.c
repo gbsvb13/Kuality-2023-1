@@ -12,6 +12,6 @@ int factorial(int n) {
 int main() {
 	int num = 0;
 	printf("input number:\n");
-	scanf_s("%d", num);
+	scanf_s("%d", &num);
 	printf("%d",factorial(num));
 }
